@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-csv_path = r'..\solver\data\data.csv' #read csv file
+csv_path = r'..\data.csv' #put your path here
 
 df = pd.read_csv(csv_path) #dataframe from csv file
 
@@ -19,7 +19,7 @@ x_scaled = (x - x_mean) / x_std
 y_scaled = (y - y_mean) / y_std
 
 
-#defining model architecture, 3 neuron in the input layer, 2 hidden layers with 64 neurons each and SiLU activation function, output layer with 4 neurons
+#defining model architecture, 9 neuron in the input layer, 3 hidden layers with 64 neurons each and SiLU activation function, output layer with 4 neurons
 model = tf.keras.Sequential([
     tf.keras.layers.InputLayer(shape=(9,)),
     tf.keras.layers.Dense(64, activation = 'silu'),
@@ -28,7 +28,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(4)
 ])
 
-model.summary()
+model.summary() #summarize the model
 
 #compiling the model with Adam optimizer and mean squared error loss function
 model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3), loss='mean_squared_error')
@@ -39,8 +39,8 @@ x_train, x_val, y_train, y_val = train_test_split(x_scaled, y_scaled, test_size 
 #Add validation split
 history = model.fit(x_train, y_train, epochs =200, batch_size =  256, validation_data = (x_val, y_val), verbose = 1,)
 
-model.save(r'..\models\100MWOgen_model.h5') #save the model
-model.save_weights(r'..\models\100MWOgen_model.weights.h5') #save the model weights 
+model.save(r'..\model.h5') #save the model
+model.save_weights(r'..\model.weights.h5') #save the model weights 
 
 #plot training loss
 plt.figure(figsize=(8,4))
