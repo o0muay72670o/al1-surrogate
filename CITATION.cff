@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this surrogate model, please cite it as below."
+authors:
+  - family-names: "Songsamphant"
+    given-names: "Poomrapee"
+  - family-names: "Ohno"
+    given-names: "Shuhei"
+    orcid: "https://orcid.org/0009-0001-5222-9726"
+title: "AL1 surrogate"
+date-released: 2026-09-02
+url: "https://github.com/o0muay72670o/al1-surrogate"
