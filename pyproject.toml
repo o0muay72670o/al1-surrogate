@@ -9,7 +9,11 @@ description = "Surrogate model for AL1 potential"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    {name = "o0muay72670o"}
+  - family-names: "Songsamphant"
+    given-names: "Poomrapee"
+  - family-names: "Ohno"
+    given-names: "Shuhei"
+    orcid: "https://orcid.org/0009-0001-5222-9726"
 ]
 license = {text = "MIT"}
 keywords = ["machine-learning", "surrogate-model", "potential"]
