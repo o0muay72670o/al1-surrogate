@@ -1,6 +1,6 @@
 # al1-surrogate
 
-A surrogate model for the AL1 potential, providing fast and accurate approximations for computational chemistry and materials science simulations.
+A surrogate model for the AL1 potential based on [Meng, Wang, and Oka (2024)](https://doi.org/10.48550/arXiv.2404.01238), providing fast and accurate approximations for calculating mass of mesons.
 
 ## Overview
 
@@ -66,7 +66,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests to
 
 ## License
 
-[Specify your license here - e.g., MIT, Apache 2.0, etc.]
+[MIT]
 
 ## Contact
 
