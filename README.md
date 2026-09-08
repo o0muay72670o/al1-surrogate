@@ -74,4 +74,4 @@ For questions or inquiries, please open an issue in the repository.
 
 ## References
 
-[Add any relevant papers, documentation, or references to the AL1 potential here]
+AL1 potential: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.014018
