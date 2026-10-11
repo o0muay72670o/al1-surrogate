@@ -35,21 +35,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Usage
-
-[Add usage examples and code snippets here]
-
-```python
-# Example usage
-from al1_surrogate import SurrogateModel
-
-# Load or initialize the model
-model = SurrogateModel()
-
-# Make predictions
-predictions = model.predict(input_data)
-```
-
 ## Project Structure
 
 ```
@@ -64,14 +49,18 @@ al1-surrogate/
 
 Contributions are welcome! Please feel free to submit issues or pull requests to help improve this project.
 
-## License
+## Citation
 
-[MIT]
-
+If you use this dataset in your research, please cite it using the metadata provided in [`CITATION.cff`](./CITATION.cff).
 ## Contact
 
 For questions or inquiries, please open an issue in the repository.
 
 ## References
 
-AL1 potential: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.014018
+AL1 potential: [https://arxiv.org/abs/2404.01238](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.014018)
+
+## Acknowledgments
+
+This work was conducted as part of the [R-IH Summer Program Internship 2026 (Wako Campus)](https://www.riken.jp/en/news_pubs/events/lectures/20260723_2/index.html), hosted by the [Fundamental Physics Data Sharing Unit at the RIKEN Information R&D and Strategy Headquarters (R-IH)](https://r-ih.riken.jp/en/index-2/irdd/physics/).
+
