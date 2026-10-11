@@ -58,7 +58,7 @@ For questions or inquiries, please open an issue in the repository.
 
 ## References
 
-AL1 potential: [https://arxiv.org/abs/2404.01238](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.014018)
+AL1 potential: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.014018
 
 ## Acknowledgments
 
